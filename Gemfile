@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'dropbox'
+gem 'nokogiri'
 gem 'sinatra'
 gem 'thin'
-
+gem 'ratom'

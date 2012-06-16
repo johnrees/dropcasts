@@ -2,17 +2,14 @@ GEM
   remote: https://rubygems.org/
   specs:
     daemons (1.1.8)
-    dropbox (1.3.0)
-      json (>= 1.2.0)
-      multipart-post (>= 1.1.0)
-      oauth (>= 0.3.6)
     eventmachine (0.12.10)
-    json (1.7.3)
-    multipart-post (1.1.5)
-    oauth (0.4.6)
+    libxml-ruby (2.3.2)
+    nokogiri (1.5.4)
     rack (1.4.1)
     rack-protection (1.2.0)
       rack
+    ratom (0.7.0)
+      libxml-ruby (~> 2.3.2)
     sinatra (1.3.2)
       rack (~> 1.3, >= 1.3.6)
       rack-protection (~> 1.2)
@@ -27,6 +24,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  dropbox
+  nokogiri
+  ratom
   sinatra
   thin
